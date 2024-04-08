@@ -50,3 +50,27 @@ console.log(Object.entries(instaUser)); //[["id","123abc"],["name","jhon"],["log
 console.log(instaUser.hasOwnProperty("id"));// true
 
 
+const course ={
+    coursename : "javascript",
+    price :1000,
+    courseInstructor : "Hithesh"
+};
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+
+
+// JSON 
+// {
+//     "name" : "srujan",
+//     "age":30
+// }
+
+[
+    {},
+    {},
+    {}
+]
