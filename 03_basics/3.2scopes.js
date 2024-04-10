@@ -14,4 +14,19 @@ if(true){
 console.log("Global a:",a)
 console.log("c", c);// bcz var is not suited for block scopes
 
+///************INTRESTING STUFF HERE******************/ */
 
+
+console.log(addone(5));
+function addone(value) {
+    return num+1;
+}
+
+
+
+
+const addTwo = function(num){
+    return num+2;
+}
+
+addTwo(5); // it can  be called as a normal function but it cannot be called without the declaration of the variable.
