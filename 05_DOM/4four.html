@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="language">
+        <ul>
+            <li>JAVA</li>
+        </ul>
+    </div>
+
+    <script>
+        function addLang(langName){
+            const li = document.createElement('li');
+            li.innerHTML = `${langName}`
+            document.querySelector('.language').appendChild(li);
+        }
+        addLang("JAVASCRIPT");
+        addLang("PYTHON");
+
+        function optiAdd(langName){
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector('.language').appendChild(li);
+        }
+        optiAdd("TYPESCRIPT");
+
+        //Edit
+        
+    </script>
+</body>
+</html>
